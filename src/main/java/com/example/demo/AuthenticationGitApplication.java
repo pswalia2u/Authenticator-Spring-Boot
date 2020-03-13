@@ -4,10 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AuthenticationGitApplication {
+public class AuthenticationGitApplication 
+{
 
-	public static void main(String[] args) {
-		SpringApplication.run(AuthenticationGitApplication.class, args);
+	public static void main(String[] args) 
+	{
+		SpringApplication.run(AppConfig.class, args);
 	}
 
 }
